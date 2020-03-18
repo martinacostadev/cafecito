@@ -12,12 +12,14 @@ const Post = () => (
 
             <p>
                 💻 Estoy hace más de 10 años en el mundo de sistemas,
-                principalmente centrado en lo que es sistemas Windows, web y este último año en aplicaciones móviles, tanto desarrollo
+                principalmente centrado en lo que es sistemas Windows, web y
+                este último año en aplicaciones móviles, tanto desarrollo
                 FrontEnd como BackEnd.
             </p>
 
             <p>
-                Me gusta mucho aprender, investigar, el código libre, sacar fotos, filmar y editar; el café y el sushi.
+                Me gusta mucho aprender, investigar, el código libre, sacar
+                fotos, filmar y editar; el café y el sushi.
             </p>
 
             <p>
