@@ -18,10 +18,12 @@ const mongoose = require("mongoose");
 let urlMongo = "";
 
 if (process.env.DB_USER) {
-    urlMongo = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}?authSource=admin&w=1`;
+    urlMongo = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}?authSource=admin&w=1`;
 } else {
     urlMongo = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
 }
+
+//console.log('urlMongo ' + urlMongo);
 
 mongoose.set("useCreateIndex", true);
 

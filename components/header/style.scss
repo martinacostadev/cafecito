@@ -47,14 +47,21 @@
         margin-left: 16px;
 
         .name {
-            text-align: center;
+            text-align: left;
             font-size: 22px;
             color: var(--textBlack);
         }
 
         .countCoffees {
+            padding-top: 0.2em;
             font-size: 16px;
             color: var(--textGray);
+        }
+
+        .createdBy {
+            padding-top: 0.5em;
+            font-size: 14px;
+            color: var(--textGray);            
         }
     }
 

@@ -25,9 +25,12 @@ const Header = ({ countCoffees, prefersDark }) => {
             <div className={style.header}>
                 <div className={style.profileImg}></div>
                 <div className={style.informationContainer}>
-                    <div className={style.name}>@DamianCatanzaro</div>
+                    <div className={style.name}>@MartinDevaluado</div>
                     <div className={style.countCoffees}>
                         {countCoffees} cafecitos ☕️
+                    </div>
+                    <div className={style.createdBy}>
+                        Cafecito es creación de @DamianCatanzaro ❤️
                     </div>
                 </div>
 
@@ -42,7 +45,7 @@ const Header = ({ countCoffees, prefersDark }) => {
             </div>
 
             <div className={style.twitter}>
-                <Follow username="DamianCatanzaro" />
+                <Follow username="MartinDevaluado" />
             </div>
         </header>
     );
